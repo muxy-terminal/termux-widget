@@ -1,7 +1,7 @@
-# termux-widget 0.15.0+muxy.4
+# termux-widget 0.15.0+muxy.5
 
-Coordinated release for muxy 0.119.7. Package identity, shared UID, permissions, and release signer are unchanged. Install over previous muxy-signed builds.
+Coordinated release for muxy 0.119.8. Package name, shared UID, permissions, and private signing certificate are unchanged. Install over earlier muxy-signed builds without uninstalling.
 
-Refresh the shared libraries to muxy `7a03b9938e9d9eb4a1456045d60147dd54848d02`. This app does not present a terminal touchscreen; terminal gestures are handled by the main app and Float.
+Refresh muxy shared libraries to `4f19a15cdbdce7334a7f2429bf45aa086b698896`. Main muxy and Float restore original Termux-style single-tap routing and guard alternate-screen transitions. This addon does not present a terminal touchscreen.
 
-Use the same signing family for all Termux apps. Differently signed upstream/F-Droid/Play APKs cannot share muxy UID. Corresponding source, licenses, and checksums accompany the release.
+Differently signed upstream, F-Droid, and Play APKs cannot share muxy UID. Source, licenses, provenance, and checksums accompany the APK.
